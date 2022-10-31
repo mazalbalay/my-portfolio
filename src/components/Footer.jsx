@@ -5,7 +5,7 @@ import {AiFillGithub} from 'react-icons/ai'
 
 export default function Footer() {
   return (
-    <div className='flex flex-col h-52 md:h-24 md:flex-row justify-around items-center p-4 bg-blue-50 border-t border-cyan-700'>
+    <div className='flex flex-col h-52 md:h-24 md:flex-row justify-around items-center p-4 bg-blue-50 '>
         <div>
             <h1 className='font-bold text-cyan-800 font-siganatrue text-5xl'>mazal</h1>
         </div>

@@ -30,7 +30,7 @@ export default function Skils() {
     { skil: "nodejs", img: nodejs },
   ];
   return (
-    <div id="skils" className="min-h-screen py-10 flex flex-col justify-center items-center bg-blue-50">
+    <div id="skils" className="min-h-screen py-10 flex flex-col justify-center items-center">
       <div>
         <h1 className="flex flex-col justify-center items-center text-6xl text-cyan-800 font-bold my-10">
           SKILS

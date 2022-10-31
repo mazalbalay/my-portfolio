@@ -15,7 +15,7 @@ export default function NavBar() {
   ];
 
   return (
-    <div className=" bg-blue-50  w-full h-20 fixed bg-opacity-80 hover:bg-opacity-100 duration-300 border-b border-cyan-700">
+    <div className=" bg-blue-50  w-full h-20 fixed bg-opacity-80 hover:bg-opacity-100 duration-300 ">
       <div className="flex justify-between items-center px-2  w-full h-20 fixed md:w-4/5 md:left-40 md:m-0 ">
         <div>
           <h1 className="font-siganatrue text-5xl ml-2 text-cyan-800 font-bold ">

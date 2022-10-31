@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div id="contact" className="w-full h-screen p-10 bg-blue-50 flex flex-col justify-between">
-      <div className="flex flex-col p-4 justify-center items-center max-w-screen-lg mx-auto text-center text-cyan-800">
+    <div id="contact" className="w-full h-screen p-10  flex flex-col justify-between">
+      <div className="flex flex-col p-4 justify-center items-center max-w-screen-lg mx-auto text-center  text-cyan-800">
         <h1 className="text-4xl font-bold">contact with me!</h1>
         You can leave a message and I will get back to you
       </div>
@@ -13,21 +13,21 @@ export default function Contact() {
           type="text"
           placeholder="enter your name"
           name="name"
-          className="p2 bg-transparent border-2 rounded-md focus:outline-none"
+          className="p-2 bg-transparent border-2 my-2 border-cyan-800 placeholder:text-cyan-800  rounded-md focus:outline-none"
         />
         <input
           type="text"
           placeholder="enter your email"
           name="email"
-          className="p2 bg-transparent border-2 rounded-md focus:outline-none"
+          className="p-2 bg-transparent border-2 my-2 border-cyan-800 placeholder:text-cyan-800 rounded-md focus:outline-none"
         />
         <textarea
         placeholder="enter your message"
           name="message"
           rows="10"
-          className="p2 bg-transparent rounded-md  focus:outline-none border-2"
+          className="p-2 border-cyan-800 my-2 placeholder:text-cyan-800 bg-transparent rounded-md  focus:outline-none border-2"
         ></textarea>
-        <button className="px-6 py-3 flex items-center rounded-md hover:scale-110 duration-300 bg-white text-cyan-800 font-bold mx-auto ">
+        <button className="px-6 py-3 flex items-center rounded-md hover:scale-110 duration-300 bg-blue-50 mt-4 text-cyan-800 font-bold mx-auto ">
           Let's tolk
         </button>
       </form>

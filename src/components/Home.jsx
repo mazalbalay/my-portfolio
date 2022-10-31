@@ -7,7 +7,7 @@ export default function home() {
   return (
     <div
        id="home"
-      className="h-screen w-full bg-gradient-to-b bg-blue-50 text-cyan-800 pt-10"
+      className="h-screen w-full bg-gradient-to-b text-cyan-800 pt-10"
     >
       <div className="md:flex-row flex flex-col max-w-screen-lg mx-auto w-4/5 justify-center items-center h-screen ">
 
@@ -21,7 +21,7 @@ export default function home() {
           </h1>
           
           <div>
-            <Link to="portfolio" activeClass="active" spy={true} smooth={true} className="group flex justify-center cursor-pointer items-center bg-white text-cyan-800 border-color: rgb(212 212 212); p-2 rounded-md text-2xl my-10 font-bold">
+            <Link to="portfolio" activeClass="active" spy={true} smooth={true} className="group flex justify-center cursor-pointer items-center bg-blue-50 text-cyan-800 border-color: rgb(212 212 212); p-2 rounded-md text-2xl my-10 font-bold">
             Portfolio 
               <span className="group-hover:rotate-90 duration-200">
                 <IoIosArrowForward size={25} />

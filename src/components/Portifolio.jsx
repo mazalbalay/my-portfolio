@@ -6,13 +6,16 @@ import productImg from "../assets/product.png";
 
 export default function Portifolio() {
   return (
-    <div id="portfolio" className="min-h-screen flex flex-col justify-evenly items-center">
+    <div
+      id="portfolio"
+      className="min-h-screen bg-blue-50 flex flex-col justify-evenly items-center"
+    >
       <div>
         <h1 className="text-6xl font-bold text-cyan-800 my-20">Portipolio</h1>
       </div>
 
       <div className="flex flex-wrap w-full justify-center">
-        <div className=" m-3 w-4/4  bg-blue-50 py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
+        <div className=" m-3 w-4/4  bg-white  py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
           <img className="rounded-md " src={productImg} alt="" />
           <h2 className="text-2xl font-bold my-2">product</h2>
           <p className="text-center my-2">
@@ -29,7 +32,7 @@ export default function Portifolio() {
           </div>
         </div>
 
-        <div className=" m-3 w-4/4  bg-blue-50 py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
+        <div className=" m-3 w-4/4   bg-white py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
           <img className="rounded-md " src={productImg} alt="" />
           <h2 className="text-2xl font-bold my-2">product</h2>
           <p className="text-center my-2">
@@ -45,7 +48,7 @@ export default function Portifolio() {
             </button>
           </div>
         </div>
-        <div className=" m-3 w-4/4  bg-blue-50 py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
+        <div className=" m-3 w-4/4  bg-white py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
           <img className="rounded-md " src={productImg} alt="" />
           <h2 className="text-2xl font-bold my-2">product</h2>
           <p className="text-center my-2">
@@ -61,7 +64,6 @@ export default function Portifolio() {
             </button>
           </div>
         </div>
-       
       </div>
     </div>
   );
