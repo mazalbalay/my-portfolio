@@ -13,34 +13,25 @@ export default function About() {
           </h1>
         </div>
         <div className="w-full flex flex-col ">
-          <p className="shadow-lg my-5 ml-12 p-4 bg-white">
-            {/* היי לי קוראים מזל בלאי בת 25 גרה ברחובות,<br/>
-         אני יכולה להעיד על עצמי מעבודתיי הקודמות שיש לי מוסר עבודה גבוהה,<br/>
-         אני אחראית ומשתלבת יפה מאוד בעבודת צוות,<br/>
-         אך בעלת נסיון גם בעבודות עצמאית, */}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem id
-            voluptas corporis harum, autem recusandae libero laborum excepturi
-            sit mollitia. Iure, similique tempore. Unde nihil labore blanditiis
-            sapiente dolores sunt!
+          <p className="shadow-lg my-5 ml-12 p-4 text-2xl bg-white">
+            Hi, my name is Mazal Balay,I'm 25 years old and live in Rehovot,
+            <br />
+            Has experience in a multi-task computerized work environment, under
+            pressure,
+            <br />
+            Combining verbal and written communication, personal responsibility
+            and meeting goals
           </p>
-          <p className="shadow-lg my-5  mr-9 p-4 bg-white">
-            {/* את השכלתי בתחום הפיתוח תוכנה רכשתי בטק קרירה (מרכז הכשרה טכנולוגי)<br/>
-         שם עשיתי קורס של 8 חודשים מאוד אינטנסיבים,<br/>
-         של למידה 5 פעמים בשבוע מינימום 8 שעות יותר,<br/>
-         הקורס היה מאתגר מלמד ומעשיר מאוד. */}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, at
-            quia! Magni eaque quibusdam, earum nobis provident voluptas aliquid
-            animi dolor! Illum consectetur perspiciatis non inventore
-            voluptatibus. Voluptatem, hic at?
+          <p className="shadow-lg my-5  mr-9 p-4 text-2xl bg-white">
+            Software development course in a bootcamp format at the Tech Career
+            technological training center.
+            <br />
+            An intensive course with 800 academic study hours, of which 50% is
+            practical and entails presenting projects.
           </p>
-          <p className="shadow-lg my-5 ml-9 p-4 bg-white">
-            {/* כרגע אני מחפשת עבודה למשרת Full-stack-developer <br/>
-        אני אשמח לקבל הזדמנות להכנס לתחום ולתת את מה שאני יודעת,
-        ולקבל כדאי להתפתח וללמוד. */}
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Dignissimos dicta, praesentium ut odio voluptates atque rem
-            consectetur voluptas provident, modi corrupti tempora, voluptatum
-            quos dolorem. Rerum voluptate quis eum consequatur.
+          <p className="shadow-lg my-5 ml-9 p-4 text-2xl bg-white">
+          Enjoys learning and overcoming challenges, has the ability to learn independently and work in a team.<br/>
+          Comes with a lot of motivation to take up the position of Full Stack Developer.
           </p>
         </div>
       </div>
