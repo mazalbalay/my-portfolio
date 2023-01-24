@@ -15,55 +15,61 @@ export default function Portifolio() {
         <h1 className="text-6xl font-bold text-cyan-800 my-20">Portipolio</h1>
       </div>
 
-      <div className="flex flex-wrap w-full justify-center">
-        <div className=" m-3 w-4/4  bg-white  pb-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
+      <div className="flex flex-wrap w-full justify-evenly">
+        <div className=" m-3 w-4/4  bg-white  pb-9 md:w-1/3 flex flex-col items-center rounded-lg  ">
           <img className="rounded-md" src={recpice} alt="" />
-          <h2 className="text-2xl font-bold my-2 capitalize">Full Stack Project - Recipes App</h2>
+          <h2 className="text-2xl font-bold my-2 capitalize">
+            Full Stack Project - Recipes App
+          </h2>
           <p className="text-center text-2xl my-2">
-          server: express nodeJS files<br/>
-          front: react tailwind
+            server: express nodeJS files
+            <br />
+            front: react tailwind
           </p>
           <div className="my-2">
             <button className="bg-blue-50 rounded-md font-bold px-6 py-3 m-2">
-              Demo
+              <a href="https://recipes-web-site-ebu6.onrender.com">Demo</a>
             </button>
             <button className="bg-blue-50 rounded-md font-bold px-6 py-3 m-2">
-             <a href="https://github.com/mazalbalay/recipe_site">Code</a> 
+              <a href="https://github.com/mazalbalay/recipes-web-site">Code</a>
             </button>
           </div>
         </div>
 
-        <div className=" m-3 w-4/4   bg-white pb-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
+        <div className=" m-3 w-4/4  bg-white pb-9 md:w-1/3 flex flex-col items-center rounded-lg  ">
           <img className="rounded-md " src={yad2} alt="" />
-          <h2 className="text-2xl font-bold my-2">Full Stack Project - yad2 App</h2>
+          <h2 className="text-2xl font-bold my-2">
+            Full Stack Project - yad2 App
+          </h2>
           <p className="text-center text-2xl my-2">
-          server: express nodeJS mongooDB<br/>
-          front: react tailwind
+            server: express nodeJS mongooDB
+            <br />
+            front: react tailwind
           </p>
           <div className="my-2">
             <button className="bg-blue-50 rounded-md font-bold px-6 py-3 m-2">
-              Demo
+              <a href="https://yad2-web-site-client.onrender.com">Demo</a>
             </button>
             <button className="bg-blue-50 rounded-md font-bold px-6 py-3 m-2">
-              Code
+              <a href="https://github.com/mazalbalay/yad2-web-site-client">
+                Code
+              </a>
             </button>
           </div>
         </div>
-        <div className=" m-3 w-4/4  bg-white py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
+        {/* <div className=" m-3 w-4/4  bg-white py-9 md:w-1/4 flex flex-col items-center rounded-lg  ">
           <img className="rounded-md " src={""} alt="" />
           <h2 className="text-2xl font-bold my-2">...</h2>
-          <p className="text-center my-2">
-           ...
-          </p>
+          <p className="text-center my-2">...</p>
           <div className="my-2">
             <button className="bg-blue-50 rounded-md font-bold px-6 py-3 m-2">
-              Demo
+              <a href="">Demo</a>
             </button>
             <button className="bg-blue-50 rounded-md font-bold px-6 py-3 m-2">
-              Code
+              <a href="">Code</a>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
