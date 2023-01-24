@@ -1,6 +1,6 @@
 import React from "react";
 import yad2 from "../assets/yad2.png";
-import recpice from "../assets/recpice.png";
+import recpice from "../assets/recipe.png";
 // import {FaCss3Alt} from 'react-icons/ai'
 // import {DiJavascript} from 'react-icons/di'
 // import {BsFillBootstrapFill} from 'react-icons/bs'
